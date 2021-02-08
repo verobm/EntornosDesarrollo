@@ -6,11 +6,11 @@ import java.time.*; // Este paquete contiene LocalDate, LocalTime y LocalDateTim
     class fechahora {
     	
     	
-    	static int year = 2008;
-    	static int month= 03;
-    	static int dayOfMonth= 21;
-    	static int hour = 12;
-    	static int minute = 01;
+    	static int year = 2021;
+    	static int month= 02;
+    	static int dayOfMonth= 09;
+    	static int hour = 00;
+    	static int minute = 35;
     
     public static void main(String[] args) {
         LocalDate diaf = LocalDate.of(year, month, dayOfMonth);
