@@ -1,0 +1,12 @@
+Crear una nueva rama:
+git branch nuevaRama
+Ver la rama en la que nos encontramos: 
+git branch
+Ir a una rama determinada:
+git checkout nuevarama
+Si quiero crear la rama e ir a ella puedo atajar: 
+git checkout-b nuevarama2
+Subir el repositorio a remoto: 
+Teniendo la dirección de repositorio, podemos indicar la conexión remota y realizar el push: 
+git remote add origin https://github.com/ciberkaos/project1.git
+git push -u origin master
